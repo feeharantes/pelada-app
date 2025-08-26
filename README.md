@@ -1,10 +1,29 @@
-<<<<<<< HEAD
-# pelada-app
-Gerenciar jogos de futebol com os amigos
-=======
-# Vue 3 + Vite
+# ⚽ Pelada App
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Aplicativo para gerenciar partidas de futebol **“pelada”** de forma simples e organizada.  
+Permite confirmar presença, controlar pagamentos, sortear times automaticamente e registrar estatísticas de gols e assistências.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
->>>>>>> a9f777c (feat: initial commit - Pelada app (Vue 3 + Firebase))
+---
+
+## 📌 Funcionalidades
+
+- ✅ Confirmação de presença (somente jogadores com pagamento confirmado)  
+- 💰 Aprovação e controle de pagamentos pelo admin  
+- 🎲 Sorteio automático de times (5 jogadores por time, com regra para goleiros)  
+- ⏱️ Encerramento automático da pelada após a data/hora  
+- 📊 Registro de gols e assistências (2h após o fim da pelada)  
+- 🏆 Ranking mensal e anual de artilheiros e líderes de assistências  
+- 🔔 Notificações de cancelamento e avisos gerais  
+- 📱 Interface responsiva (Vue 3 + Tailwind)
+
+---
+
+## 🛠️ Stack Tecnológica
+
+- **Framework Frontend:** Vue 3 (Composition API)  
+- **Estilização:** Tailwind CSS  
+- **Backend / Banco de Dados:** Firebase (Auth + Firestore)  
+- **Hospedagem:** Firebase Hosting  
+- **Build Tool:** Vite  
+
+---
